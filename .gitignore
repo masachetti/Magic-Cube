@@ -15,7 +15,7 @@ sysinfo.txt
 *.pidb.meta
 
 # Visual Studio cache directory
-.vs/
+.vscode/
 
 ###
 # VS/MD solution and project files
