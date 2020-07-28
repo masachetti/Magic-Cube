@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -264,7 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -361,7 +361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -475,9 +475,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  xColor: {r: 0, g: 0, b: 1, a: 1}
+  yColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  zColor: {r: 0, g: 1, b: 0.78541684, a: 1}
+  reverseX: 0
+  reverseY: 1
+  reverseZ: 1
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -527,7 +530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -624,7 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -721,7 +724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 1, b: 0.78541684, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -837,7 +840,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xColor: {r: 1, g: 0, b: 0, a: 1}
   yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  zColor: {r: 1, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -887,7 +893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -1081,7 +1087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -1178,7 +1184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -1275,7 +1281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -1372,7 +1378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -1469,7 +1475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -1583,9 +1589,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  xColor: {r: 0, g: 1, b: 0, a: 1}
+  yColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  zColor: {r: 0, g: 1, b: 0.78541684, a: 1}
+  reverseX: 1
+  reverseY: 1
+  reverseZ: 1
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -1652,9 +1661,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  xColor: {r: 0, g: 1, b: 0, a: 1}
+  yColor: {r: 1, g: 1, b: 1, a: 1}
+  zColor: {r: 1, g: 0, b: 1, a: 1}
+  reverseX: 1
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -1898,7 +1910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -2092,7 +2104,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -2189,7 +2201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 1, b: 0.78541684, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -2286,7 +2298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -2577,7 +2589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -2771,7 +2783,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -2868,7 +2880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -2965,7 +2977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -3047,6 +3059,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   size: 8
   borderSize: 10
+  forwardColor: {r: 1, g: 0, b: 1, a: 1}
+  backColor: {r: 0, g: 1, b: 0.78541684, a: 1}
+  rightColor: {r: 0, g: 0, b: 1, a: 1}
+  leftColor: {r: 0, g: 1, b: 0, a: 1}
+  upColor: {r: 1, g: 1, b: 1, a: 1}
+  downColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
 --- !u!4 &329568908
 Transform:
   m_ObjectHideFlags: 0
@@ -3134,7 +3152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -3231,7 +3249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -3328,7 +3346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 1, b: 0.78541684, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -3425,7 +3443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -3522,7 +3540,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -3619,7 +3637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -3716,7 +3734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -3813,7 +3831,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -3910,7 +3928,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -4007,7 +4025,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -4298,7 +4316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -4395,7 +4413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -4686,7 +4704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -4977,7 +4995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 1, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -5268,7 +5286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -5382,9 +5400,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  xColor: {r: 0, g: 1, b: 0, a: 1}
+  yColor: {r: 1, g: 1, b: 1, a: 1}
+  zColor: {r: 0, g: 1, b: 0.78541684, a: 1}
+  reverseX: 1
+  reverseY: 0
+  reverseZ: 1
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -5434,7 +5455,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -5531,7 +5552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -5645,9 +5666,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  xColor: {r: 0, g: 1, b: 0, a: 1}
+  yColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  zColor: {r: 1, g: 0, b: 1, a: 1}
+  reverseX: 1
+  reverseY: 1
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -5794,7 +5818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -5891,7 +5915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -6279,7 +6303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -6485,9 +6509,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  xColor: {r: 0, g: 1, b: 0, a: 1}
+  yColor: {r: 1, g: 1, b: 1, a: 1}
   zColor: {r: 0, g: 0, b: 1, a: 1}
+  reverseX: 1
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -6537,7 +6564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -6634,7 +6661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -6731,7 +6758,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 1, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -6828,7 +6855,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -6925,7 +6952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -7022,7 +7049,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -7313,7 +7340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -7427,9 +7454,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
+  xColor: {r: 0, g: 0, b: 1, a: 1}
   yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  zColor: {r: 0, g: 1, b: 0.78541684, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 1
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -7479,7 +7509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -7673,7 +7703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 1, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -7867,7 +7897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 1, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -7964,7 +7994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -8061,7 +8091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -8158,7 +8188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -8255,7 +8285,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -8352,7 +8382,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -8449,7 +8479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -8546,7 +8576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 1, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -8726,7 +8756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -8841,8 +8871,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  yColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   zColor: {r: 0, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 1
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -8892,7 +8925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 1, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -8989,7 +9022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -9086,7 +9119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -9298,8 +9331,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  yColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  zColor: {r: 0, g: 1, b: 0.78541684, a: 1}
+  reverseX: 0
+  reverseY: 1
+  reverseZ: 1
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -9367,8 +9403,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  yColor: {r: 1, g: 1, b: 1, a: 1}
+  zColor: {r: 1, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -9612,7 +9651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -9709,7 +9748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -9806,7 +9845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -10000,7 +10039,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -10097,7 +10136,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -10194,7 +10233,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -10388,7 +10427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 1, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -10582,7 +10621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -10679,7 +10718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -10776,7 +10815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 1, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -10970,7 +11009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -11067,7 +11106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -11164,7 +11203,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -11278,9 +11317,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  xColor: {r: 0, g: 0, b: 1, a: 1}
+  yColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  zColor: {r: 1, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 1
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -11427,7 +11469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -11541,9 +11583,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
+  xColor: {r: 0, g: 1, b: 0, a: 1}
   yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  zColor: {r: 0, g: 1, b: 0.78541684, a: 1}
+  reverseX: 1
+  reverseY: 0
+  reverseZ: 1
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -11690,7 +11735,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -11804,9 +11849,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
+  xColor: {r: 0, g: 0, b: 1, a: 1}
   yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
   zColor: {r: 0, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -11856,7 +11904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -11970,9 +12018,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  xColor: {r: 0, g: 0, b: 1, a: 1}
+  yColor: {r: 1, g: 1, b: 1, a: 1}
+  zColor: {r: 1, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -12022,7 +12073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -12119,7 +12170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -12216,7 +12267,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -12332,7 +12383,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xColor: {r: 1, g: 0, b: 0, a: 1}
   yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  zColor: {r: 0, g: 1, b: 0.78541684, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 1
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -12382,7 +12436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -12479,7 +12533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -12787,9 +12841,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
+  xColor: {r: 0, g: 1, b: 0, a: 1}
   yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
   zColor: {r: 0, g: 0, b: 1, a: 1}
+  reverseX: 1
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -12839,7 +12896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -12936,7 +12993,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -13033,7 +13090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -13130,7 +13187,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -13227,7 +13284,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -13324,7 +13381,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -13438,9 +13495,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  xColor: {r: 0, g: 1, b: 0, a: 1}
+  yColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   zColor: {r: 0, g: 0, b: 1, a: 1}
+  reverseX: 1
+  reverseY: 1
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -13490,7 +13550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -13587,7 +13647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -13684,7 +13744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -13781,7 +13841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 1, b: 0.78541684, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -13878,7 +13938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -13975,7 +14035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -14169,7 +14229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -14266,7 +14326,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 1, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -14363,7 +14423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -14478,8 +14538,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  yColor: {r: 1, g: 1, b: 1, a: 1}
+  zColor: {r: 0, g: 1, b: 0.78541684, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 1
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -14529,7 +14592,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -14626,7 +14689,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -14723,7 +14786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -14917,7 +14980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 1, b: 0.78541684, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -15014,7 +15077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -15111,7 +15174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 1, b: 0.78541684, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -15208,7 +15271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -15402,7 +15465,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -15517,8 +15580,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  yColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  zColor: {r: 1, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 1
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -15568,7 +15634,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -15665,7 +15731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -15859,7 +15925,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -15973,9 +16039,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  xColor: {r: 0, g: 0, b: 1, a: 1}
+  yColor: {r: 1, g: 1, b: 1, a: 1}
+  zColor: {r: 0, g: 1, b: 0.78541684, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 1
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -16025,7 +16094,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 1, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -16219,7 +16288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 1, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -16333,9 +16402,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  xColor: {r: 0, g: 0, b: 1, a: 1}
+  yColor: {r: 1, g: 1, b: 1, a: 1}
   zColor: {r: 0, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -16499,9 +16571,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  xColor: {r: 0, g: 0, b: 1, a: 1}
+  yColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   zColor: {r: 0, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 1
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -16551,7 +16626,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 1, g: 1, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -16859,9 +16934,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
+  xColor: {r: 0, g: 0, b: 1, a: 1}
   yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  zColor: {r: 1, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -16911,7 +16989,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -17105,7 +17183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 1, b: 0.78541684, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -17222,6 +17300,9 @@ MonoBehaviour:
   xColor: {r: 1, g: 0, b: 0, a: 1}
   yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
   zColor: {r: 0, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -17271,7 +17352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  fillColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -17465,7 +17546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 0, a: 1}
+  fillColor: {r: 0, g: 0, b: 1, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -17659,7 +17740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 1, b: 0.78541684, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -17774,8 +17855,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xColor: {r: 1, g: 0, b: 0, a: 1}
-  yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
+  yColor: {r: 1, g: 1, b: 1, a: 1}
   zColor: {r: 0, g: 0, b: 1, a: 1}
+  reverseX: 0
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -17825,7 +17909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
-  fillColor: {r: 0, g: 0, b: 1, a: 1}
+  fillColor: {r: 0, g: 1, b: 0.78541684, a: 1}
   size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
@@ -17939,9 +18023,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26b5ce71084c0ac448c0d3180d8a2817, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xColor: {r: 1, g: 0, b: 0, a: 1}
+  xColor: {r: 0, g: 1, b: 0, a: 1}
   yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  zColor: {r: 0, g: 0, b: 1, a: 1}
+  zColor: {r: 1, g: 0, b: 1, a: 1}
+  reverseX: 1
+  reverseY: 0
+  reverseZ: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10

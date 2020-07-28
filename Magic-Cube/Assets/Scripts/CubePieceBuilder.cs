@@ -6,6 +6,7 @@ using UnityEngine;
 public class CubePieceBuilder : MonoBehaviour
 {
     public Color xColor, yColor, zColor;
+    public bool reverseX = false , reverseY = false , reverseZ = false ;
     public Color borderColor;
     public float size = 10;
     public int borderSize = 10;
@@ -51,32 +52,56 @@ public class CubePieceBuilder : MonoBehaviour
         backF.size = size;
         backF.borderSize = borderSize;
         backF.borderColor = borderColor;
-        backF.fillColor = zColor;
+        if (reverseZ){
+            backF.fillColor = zColor;
+        }else{
+            backF.fillColor = Color.black;
+        }
         CubePieceFaceRender upF = up.GetComponent<CubePieceFaceRender>();
         upF.size = size;
         upF.borderSize = borderSize;
         upF.borderColor = borderColor;
-        upF.fillColor = yColor;
+        if (!reverseY){
+            upF.fillColor = yColor;
+        }else{
+            upF.fillColor = Color.black;
+        }
         CubePieceFaceRender forwardF = forward.GetComponent<CubePieceFaceRender>();
         forwardF.size = size;
         forwardF.borderSize = borderSize;
         forwardF.borderColor = borderColor;
-        forwardF.fillColor = Color.black;
+        if (!reverseZ){
+            forwardF.fillColor = zColor;
+        }else{
+            forwardF.fillColor = Color.black;
+        }
         CubePieceFaceRender downF = down.GetComponent<CubePieceFaceRender>();
         downF.size = size;
         downF.borderSize = borderSize;
         downF.borderColor = borderColor;
-        downF.fillColor = Color.black;
+        if (reverseY){
+            downF.fillColor = yColor;
+        }else{
+            downF.fillColor = Color.black;
+        }
         CubePieceFaceRender rightF = right.GetComponent<CubePieceFaceRender>();
         rightF.size = size;
         rightF.borderSize = borderSize;
         rightF.borderColor = borderColor;
-        rightF.fillColor = Color.black;
+        if (!reverseX){
+            rightF.fillColor = xColor;
+        }else{
+            rightF.fillColor = Color.black;
+        }
         CubePieceFaceRender leftF = left.GetComponent<CubePieceFaceRender>();
         leftF.size = size;
         leftF.borderSize = borderSize;
         leftF.borderColor = borderColor;
-        leftF.fillColor = xColor;
+        if (reverseX){
+            leftF.fillColor = xColor;
+        }else{
+            leftF.fillColor = Color.black;
+        }
 
         BoxCollider collider = GetComponent<BoxCollider>();
         collider.size = Vector3.one * size;

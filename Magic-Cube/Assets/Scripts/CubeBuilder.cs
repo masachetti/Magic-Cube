@@ -8,6 +8,8 @@ public class CubeBuilder : MonoBehaviour
     public float size = 10;
     public int borderSize = 10;
 
+    public Color forwardColor = Color.magenta, backColor = Color.red, rightColor = Color.blue, leftColor = Color.green, upColor = Color.white, downColor = Color.yellow;
+
 
     private bool alreadyCreated;
 
@@ -24,10 +26,7 @@ public class CubeBuilder : MonoBehaviour
         template = Resources.Load("Prefabs/CubePiece") as GameObject;
         createPieces();
         setUpPieces();
-        foreach (var item in getFramePieces(x,2))
-        {
-            print(item.transform.position);
-        }
+        setUpFacesColors();
     }
 
     void Update()
@@ -84,6 +83,35 @@ public class CubeBuilder : MonoBehaviour
                 }
             }
         }       
+    }
+
+    void setUpFacesColors(){
+        setUpPiecesColor(x, 0, rightColor);
+        setUpPiecesColor(x, 2, leftColor);
+        setUpPiecesColor(y, 0, upColor);
+        setUpPiecesColor(y, 2, downColor);
+        setUpPiecesColor(z, 0, forwardColor);
+        setUpPiecesColor(z, 2, backColor);
+    }
+
+    void setUpPiecesColor(int axe, int frame, Color faceColor){
+        List<GameObject> framePieces = getFramePieces(axe, frame);
+        bool reverse = (frame == 2);
+        foreach (var item in framePieces){
+            CubePieceBuilder pieceScpt = item.GetComponent<CubePieceBuilder>();
+            if (axe == x){
+                pieceScpt.xColor = faceColor;
+                pieceScpt.reverseX = reverse;
+            }
+            else if (axe == y){
+                pieceScpt.yColor = faceColor;
+                pieceScpt.reverseY = reverse;
+            }
+            else if (axe == z){
+                pieceScpt.zColor = faceColor;
+                pieceScpt.reverseZ = reverse;
+            }
+        }
     }
 
     List<GameObject> getFramePieces(int axe, int frame){
