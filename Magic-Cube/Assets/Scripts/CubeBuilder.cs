@@ -15,21 +15,23 @@ public class CubeBuilder : MonoBehaviour
 
     private GameObject template;
 
+    private const int x = 0, y=1, z=2;
+
     
 
     void Start()
     {
         template = Resources.Load("Prefabs/CubePiece") as GameObject;
-        build();
+        createPieces();
+        setUpPieces();
+        foreach (var item in getFramePieces(x,2))
+        {
+            print(item.transform.position);
+        }
     }
 
     void Update()
     {
-        setUpPieces();
-    }
-
-    public void build() {
-        createPieces();
         setUpPieces();
     }
 
@@ -82,5 +84,34 @@ public class CubeBuilder : MonoBehaviour
                 }
             }
         }       
+    }
+
+    List<GameObject> getFramePieces(int axe, int frame){
+        float majorSize = (size*3/2)-(size*0.1f);
+        float minorSize = (size/2)-(size*0.1f);
+
+        Vector3 overlapCenter,overlapSize;
+        if (axe == x){
+            overlapCenter = Vector3.right;
+            overlapSize = new Vector3(minorSize, majorSize, majorSize);
+
+        }
+        else if (axe == y){
+            overlapCenter = Vector3.up;
+            overlapSize = new Vector3(majorSize, minorSize, majorSize);
+        }
+        else{
+            overlapCenter = Vector3.forward;
+            overlapSize = new Vector3(majorSize, majorSize, minorSize);
+        }
+        overlapCenter *= (1-frame)*size;
+
+        Collider[] hitColliders = Physics.OverlapBox(overlapCenter, overlapSize);
+        List<GameObject> retval = new List<GameObject>();
+        foreach (var item in hitColliders)
+        {
+            retval.Add(item.gameObject);
+        }
+        return retval;
     }
 }
