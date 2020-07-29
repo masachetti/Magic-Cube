@@ -43,10 +43,10 @@ public class CubePieceBuilder : MonoBehaviour
         right.transform.localPosition = Vector3.right * size/2;
         left.transform.localPosition = Vector3.left * size/2;
 
-        up.transform.eulerAngles = Vector3.right * 90;
-        down.transform.eulerAngles = Vector3.right * 90;
-        right.transform.eulerAngles = Vector3.up * 90;
-        left.transform.eulerAngles = Vector3.up * 90;
+        up.transform.localEulerAngles = Vector3.right * 90;
+        down.transform.localEulerAngles = Vector3.right * 90;
+        right.transform.localEulerAngles = Vector3.up * 90;
+        left.transform.localEulerAngles = Vector3.up * 90;
 
         CubePieceFaceRender backF = back.GetComponent<CubePieceFaceRender>();
         backF.size = size;
