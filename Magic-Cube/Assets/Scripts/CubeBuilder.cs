@@ -31,7 +31,6 @@ public class CubeBuilder : MonoBehaviour
 
     void Update()
     {
-        setUpPieces();
     }
 
     void createPieces(){
