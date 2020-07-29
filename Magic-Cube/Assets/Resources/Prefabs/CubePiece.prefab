@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3550766381522971973}
   - component: {fileID: 3550766381522971972}
   - component: {fileID: 3550766381522971971}
+  - component: {fileID: 4779508264988743268}
   m_Layer: 0
   m_Name: CubePiece
   m_TagString: Untagged
@@ -53,6 +54,9 @@ MonoBehaviour:
   xColor: {r: 1, g: 0, b: 0, a: 1}
   yColor: {r: 0, g: 1, b: 0.26433706, a: 1}
   zColor: {r: 1, g: 0, b: 0.78316975, a: 1}
+  reverseX: 1
+  reverseY: 0
+  reverseZ: 1
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   size: 8
   borderSize: 10
@@ -67,8 +71,22 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6, y: 6, z: 6}
+  m_Size: {x: 8, y: 8, z: 8}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4779508264988743268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3550766381522971970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fa1611733bd086409c4d875ad4e455c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+  rotateSpeed: 1
 --- !u!1 &3550766381874688481
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,8 +113,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3550766381874688481}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 3, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3550766381522971973}
@@ -163,7 +181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   fillColor: {r: 0, g: 0, b: 0, a: 1}
-  size: 6
+  size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
 --- !u!1 &3550766381918918792
@@ -193,7 +211,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3550766381918918792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3}
+  m_LocalPosition: {x: 0, y: 0, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3550766381522971973}
@@ -260,7 +278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   fillColor: {r: 1, g: 0, b: 0.78316975, a: 1}
-  size: 6
+  size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
 --- !u!1 &3550766382276435211
@@ -289,13 +307,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3550766382276435211}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3550766381522971973}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90.00001, y: 0, z: 90}
 --- !u!33 &3550766382276435215
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -357,7 +375,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   fillColor: {r: 0, g: 1, b: 0.26433706, a: 1}
-  size: 6
+  size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
 --- !u!1 &3550766382511856498
@@ -386,8 +404,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3550766382511856498}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -3, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3550766381522971973}
@@ -454,7 +472,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   fillColor: {r: 1, g: 0, b: 0, a: 1}
-  size: 6
+  size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
 --- !u!1 &3550766383122058135
@@ -484,7 +502,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3550766383122058135}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3}
+  m_LocalPosition: {x: 0, y: 0, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3550766381522971973}
@@ -551,7 +569,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   fillColor: {r: 0, g: 0, b: 0, a: 1}
-  size: 6
+  size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
 --- !u!1 &3550766383271758608
@@ -580,8 +598,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3550766383271758608}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -3, z: 0}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: -4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3550766381522971973}
@@ -648,6 +666,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   fillColor: {r: 0, g: 0, b: 0, a: 1}
-  size: 6
+  size: 8
   borderSize: 10
   center: {x: 0, y: 0, z: 0}
