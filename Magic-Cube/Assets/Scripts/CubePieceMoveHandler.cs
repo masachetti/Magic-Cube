@@ -59,7 +59,6 @@ public class CubePieceMoveHandler : MonoBehaviour
 
     void Update()
     {
-        rotateAxe(z,false);
         moveHandler();
         rotateHandler();           
     }
@@ -157,5 +156,9 @@ public class CubePieceMoveHandler : MonoBehaviour
             real_z_vec = real_x_vec * (j);
             real_x_vec = temp_z_vec * (-j);
         }
+    }
+
+    public bool getMovingOrRotating(){
+        return moving || rotating;
     }
 }
