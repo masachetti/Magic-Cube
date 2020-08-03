@@ -189,7 +189,7 @@ public class TouchHandler : MonoBehaviour
     void executeCubeAction(int axe, bool clockwise, int frame){
         GameObject cube = GameObject.Find("Cube");
         CubeBuilder cubeScript = cube.GetComponent<CubeBuilder>();
-        cubeScript.rotate(axe, clockwise, frame);
+        // cubeScript.rotate(axe, clockwise, frame);
     }
 
     int getTouchRotateAction(){

@@ -2,18 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[ExecuteInEditMode]
+// [ExecuteInEditMode]
 public class CubeBuilder : MonoBehaviour
 {
     public float size = 10;
     public int borderSize = 10;
 
-    public int speed = 5;
-
     public Color forwardColor = Color.magenta, backColor = Color.red, rightColor = Color.blue, leftColor = Color.green, upColor = Color.white, downColor = Color.yellow;
 
 
-    private bool alreadyCreated;
+    private bool alreadyColored;
 
     private GameObject[] pieces = new GameObject[27];
 
@@ -30,12 +28,12 @@ public class CubeBuilder : MonoBehaviour
         template = Resources.Load("Prefabs/CubePiece") as GameObject;
         createPieces();
         setUpPieces();
-        setUpFacesColors();
+        alreadyColored = false;
     }
 
     void Update()
     {
-        randomAction();
+        setUpFacesColors();
         if (movingOrRotating){
             bool movingFlag = false;
             for (int i = 0; i < pieces.Length; i++){
@@ -45,19 +43,12 @@ public class CubeBuilder : MonoBehaviour
             }
             movingOrRotating = movingFlag;
         }
+        // randomAction();
     }
 
     void createPieces(){
-        if (!checkAlreadyCreated()){
-            for (int i=0; i<27; i++){
-                pieces[i] = createPiece();
-            }
-        }
-        else{
-            for (int i = 0; i < transform.childCount; i++)
-            {
-                pieces[i] = transform.GetChild(i).gameObject;
-            }
+        for (int i=0; i<27; i++){
+            pieces[i] = createPiece();
         }
     }
 
@@ -90,9 +81,6 @@ public class CubeBuilder : MonoBehaviour
                     CubePieceBuilder pieceScript = pieces[m].GetComponent<CubePieceBuilder>();
                     pieceScript.size = size;
                     pieceScript.borderSize = borderSize;
-                    CubePieceMoveHandler pieceMover = pieces[m].GetComponent<CubePieceMoveHandler>();
-                    pieceMover.moveSpeed = speed;
-                    pieceMover.rotateSpeed = speed;
                     m++;
                 }
             }
@@ -100,12 +88,15 @@ public class CubeBuilder : MonoBehaviour
     }
 
     void setUpFacesColors(){
-        setUpPiecesColor(x, 0, rightColor);
-        setUpPiecesColor(x, 2, leftColor);
-        setUpPiecesColor(y, 0, upColor);
-        setUpPiecesColor(y, 2, downColor);
-        setUpPiecesColor(z, 0, forwardColor);
-        setUpPiecesColor(z, 2, backColor);
+        if (!alreadyColored){
+            setUpPiecesColor(x, 0, rightColor);
+            setUpPiecesColor(x, 2, leftColor);
+            setUpPiecesColor(y, 0, upColor);
+            setUpPiecesColor(y, 2, downColor);
+            setUpPiecesColor(z, 0, forwardColor);
+            setUpPiecesColor(z, 2, backColor);
+            alreadyColored = true;
+        }
     }
 
     void setUpPiecesColor(int axe, int frame, Color faceColor){
@@ -152,26 +143,20 @@ public class CubeBuilder : MonoBehaviour
         List<GameObject> retval = new List<GameObject>();
         foreach (var item in hitColliders)
         {
-            retval.Add(item.gameObject);
+            if (item.gameObject.CompareTag("CubePiece")){
+                retval.Add(item.gameObject);
+            }
         }
         return retval;
     }
 
     void randomAction(){
         int rAxe = Random.Range(0,2);
-        bool rClock = Random.Range(0,1) > 0;
+        int rClock = (Random.Range(0,1)*2) -1;
         int rFrame = Random.Range(0,2);
-        rotate(rAxe, rClock, rFrame);
+        if (rAxe == 0){GetComponent<FrameRotater>().rotate(Vector3.right*rClock, rFrame);}
+        if (rAxe == 1){GetComponent<FrameRotater>().rotate(Vector3.up*rClock, rFrame);}
+        if (rAxe == 2){GetComponent<FrameRotater>().rotate(Vector3.forward*rClock, rFrame);}
     }
 
-    public void rotate(int axe, bool clockwise, int frame){
-        if (!movingOrRotating){
-            movingOrRotating = true;
-            List<GameObject> listOfPieces = getFramePieces(axe, frame);
-            foreach (var item in listOfPieces)
-            {
-                item.GetComponent<CubePieceMoveHandler>().rotateAxe(axe, clockwise);
-            }
-        }        
-    }
 }
